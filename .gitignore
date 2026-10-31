@@ -1,0 +1,18 @@
+# Local agent settings
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Secrets and local config (docs/conventions.md#secrets-and-personal-data)
+.env
+.env.*
+
+# .NET build output
+bin/
+obj/
+TestResults/
+.vs/
+*.user
+
+# The built dictionary is a CC BY-SA derivative: layer only, never git
+*.sqlite
+*.db
